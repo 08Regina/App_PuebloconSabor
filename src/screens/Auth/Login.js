@@ -57,7 +57,7 @@ const Login = ({navigation})=>{
             />
             </View>
             {/*Boton*/}
-            <TouchableOpacity>
+            <TouchableOpacity onPress={()=>navigation.navigate("Home")}>
             <Text style = {styles.botton}>
               Ingresar
             </Text>
